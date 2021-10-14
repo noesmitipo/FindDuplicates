@@ -27,3 +27,4 @@ foreach (File file in filesToCompare)
 	}
 }
 
+We could also compare FileInfos by name and length, and if some of them still have the same name, it'd be much faster, even if we lose some accuracy.
