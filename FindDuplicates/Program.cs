@@ -151,7 +151,8 @@ namespace FindDuplicates
 
                         duplicatedFiles.Add(new DuplicatedFile(originalPath, duplicatedPath));
                     }
-                } catch { }
+                }
+                catch (Exception ex) { }
             }
         }
 
